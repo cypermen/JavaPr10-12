@@ -19,4 +19,9 @@ public class Complex {
     public void setReal(int real) {
         this.real = real;
     }
+
+    @Override
+    public String toString() {
+        return "real=" + real + "\nimage=" + image + "\n";
+    }
 }
